@@ -1,0 +1,11 @@
+﻿namespace HashCalc.Models
+{
+    public class Sha1HashAlgorithm : IHashAlgorithm
+    {
+        public string AlgorithmName { get; set; }
+        public string CalculateHashValue(string filePath)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
